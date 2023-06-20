@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/textView">
+
+    <include layout="@layout/mapview" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 한개의 레이아웃을 다른 레이아웃 뷰에서 사용가능하게 해줌 -->
+        <TextView
+            android:id="@+id/include"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="15dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="20dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:background="@drawable/searchbarcustom"
+            android:drawableRight="@drawable/search_icon"
+            android:gravity="left|center"
+            android:hint="목적지 주변 충전소 찾기"
+            android:outlineProvider="background"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.widget.Button
+            android:id="@+id/more_btn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/more_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/include"/>
+
+        <TextView
+            android:id="@+id/user_manual"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/help"
+            android:backgroundTint="#42f5b0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/more_btn"/>
+
+        <HorizontalScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintEnd_toStartOf="@id/more_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include"
+            android:overScrollMode="ifContentScrolls"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none">
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipgroup"
+                android:layout_width="0dp"
+                android:layout_height="40dp">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/type_btn"
+                    style="@style/Widget.MaterialComponents.Chip.Filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chipcolor"
+                    android:text="충전타입"
+                    android:visibility="gone"
+                    app:chipStrokeColor="#42f5b0"
+                    app:chipStrokeWidth="1dp" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/speed_btn"
+                    style="@style/Widget.MaterialComponents.Chip.Filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chipcolor"
+                    android:text="충전속도"
+                    android:visibility="gone"
+                    app:chipStrokeColor="#42f5b0"
+                    app:chipStrokeWidth="1dp" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/using_btn"
+                    style="@style/Widget.MaterialComponents.Chip.Filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@drawable/chipcolor"
+                    android:text="이용가능"
+                    android:visibility="gone"
+                    app:chipStrokeColor="#42f5b0"
+                    app:chipStrokeWidth="1dp" />
+            </com.google.android.material.chip.ChipGroup>
+        </HorizontalScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include
+        android:id="@+id/viewBottomSheet"
+        layout="@layout/log_bottom"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

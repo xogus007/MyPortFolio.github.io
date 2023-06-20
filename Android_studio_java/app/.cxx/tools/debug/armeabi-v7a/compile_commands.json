@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/searchbarbottomsheet4/portpolio/app/.cxx/Debug/55d27dz2/armeabi-v7a",
+  "command": "C:\\Users\\USER\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/Users/USER/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dsearchbar_EXPORTS -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -fPIC -o CMakeFiles\\searchbar.dir\\searchbar.cpp.o -c C:\\searchbarbottomsheet4\\portpolio\\app\\src\\main\\cpp\\searchbar.cpp",
+  "file": "C:\\searchbarbottomsheet4\\portpolio\\app\\src\\main\\cpp\\searchbar.cpp"
+}
+]
