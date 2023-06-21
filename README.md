@@ -1,8 +1,10 @@
 ## PlugHub_App
-- 프로젝트 계획이유   
+- 프로젝트 계획이유
+- 
 ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/7eefb0f1-ba95-418c-997f-f670939fed93)
 ---
-- PlugHub_App 기능   
+- PlugHub_App 기능
+- 
 ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/1681a401-d632-4a71-9002-59a68d23f060)
 ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/39eb94a8-c28d-4a46-ae76-3f23771fad3e)
 ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/d7735303-d935-4486-966e-a085e53cb764)
