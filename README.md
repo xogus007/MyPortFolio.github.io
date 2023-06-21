@@ -1,6 +1,6 @@
 # MyPortFolio.github.io
 
-- 다이얼 로그
+- 다이얼 로그 (도움말)
 
 ```java
 private TextView menu;
