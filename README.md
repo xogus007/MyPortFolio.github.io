@@ -10,7 +10,7 @@
 ---
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/d7735303-d935-4486-966e-a085e53cb764)
 ---
-- 다이얼 로그 (도움말)
+- 다이얼 로그 (로그인 시 도움말)
 ```java
 private TextView menu;
  @Override
