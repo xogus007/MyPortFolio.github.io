@@ -1,17 +1,17 @@
 ## PlugHub_App
  - 프로젝트 계획이유
-> ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/7eefb0f1-ba95-418c-997f-f670939fed93)
+> ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/6c445c67-2b3b-4543-9ef6-5b4def69c94f)
 ---
  - 개발 구상도
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/ae8c1b14-983e-43b4-826e-608f791efa68)
 --- 
  - PlugHub_App 기능
 
-> ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/1681a401-d632-4a71-9002-59a68d23f060)
+> ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/2703a181-0af8-4976-8b43-6d4e94f6c9b6)
 ---
-> ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/39eb94a8-c28d-4a46-ae76-3f23771fad3e)
+> ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/12ae5ecf-c327-4cc8-a602-c311af3a2da6)
 ---
-> ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/d7735303-d935-4486-966e-a085e53cb764)
+> ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/d06cfeac-a115-410c-bcd4-f34a8c8f7818)
 ---
 - 다이얼 로그 (로그인 시 도움말)
 ```java
