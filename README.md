@@ -16,7 +16,7 @@
 ---
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/d06cfeac-a115-410c-bcd4-f34a8c8f7818)
 ---
-## 공공데이터포털 정보 파싱
+### 공공데이터포털 정보 파싱
 ```java
 String getXmlData() {
         StringBuilder buffer = new StringBuilder(1024);
@@ -183,7 +183,7 @@ String getXmlData() {
     }//getXmlData method....
 ```
 ---
-## 지도에 마커 추가
+### 지도에 마커 추가
 ```java
  new Thread(new Runnable() {
                 @Override
@@ -248,7 +248,7 @@ String getXmlData() {
     }
 ```
 ---
-## 다이얼 로그 (로그인 시 도움말)
+### 다이얼 로그 (로그인 시 도움말)
 ```java
 private TextView menu;
 menu = findViewById(R.id.user_manual);
