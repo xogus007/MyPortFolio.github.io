@@ -248,12 +248,7 @@ String getXmlData() {
 - 다이얼 로그 (로그인 시 도움말)
 ```java
 private TextView menu;
- @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.search);
-
-        menu = findViewById(R.id.user_manual);
+menu = findViewById(R.id.user_manual);
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -283,18 +278,15 @@ private TextView menu;
                                 "       각각의 필터의 체크 박스 일괄 해제)\n\n" +
                                 "     ★ 필터 1가지 선택 : 빨간색\n\n" +
                                 "     ★ 필터 2가지 선택 : 파란색\n" +
-                                "         (필터 2가지 선택 시 이전 마커 덮어 씌우기)\n" +
-                                "     ☆ 체크박스 하나를 해제 했다가 다시 선택하면 파란 마커만 표시\n" +
+                                "     ☆ (이전 마커 덮어 씌우기)\n" +
                                 "\n     ★ 필터 3가지 선택 : 파란색" +
-                                "\n         (2가지 필터 선택과 색상이 동일한 방식)\n" +
-                                "     ☆ 2가지 필터와 동일한 색상이기에 마지막에 고른 필터\n" +
-                                "          체크 해제했다가 다시한번 체크하시기 바랍니다.");
+                                "\n     ☆ (필터 2가지 선택과 동일한 방식)\n");
                 main2.setTextSize(11);
                 TextView main3 = new TextView(MainActivity.this);
-                main3.setText("\n     ★ 필터가 정상 작동을 하지 않을 경우 \n" +
-                        "          체크박스를 해제했다가 다시 클릭해보세요.\n");
+                main3.setText("     ※ 필터가 정상 작동을 하지 않을 경우 \n" +
+                        "         체크박스를 해제했다가 다시 클릭해보세요.\n");
                 main3.setTextSize(11);
-//                main3.setTypeface(main1.getTypeface(), Typeface.BOLD);
+                main3.setTypeface(main1.getTypeface(), Typeface.BOLD);
                 TextView main4 = new TextView(MainActivity.this);
                 main4.setText("     - 도움말" +
                         "\n      (PlugHub 사용법)");
