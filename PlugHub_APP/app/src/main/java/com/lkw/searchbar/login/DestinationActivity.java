@@ -32,7 +32,7 @@ public class DestinationActivity extends AppCompatActivity {
 //    RecyclerView list; // 리스트 형태로 결과 출력
 //    ArrayAdapter<String> adapter; // 리스트 형태로 결과 출력
 //    MyAdapter adapter1; // 리스트 형태로 결과 출력
-    String key = "FTwkQJPaWbBulxiQe8rtI5nLnbhyvD9bMWJn3Ism2%2BqN3fQHeAMAoNuUml5%2BMFi7ggLnRbb4VVzOwwqE65T54A%3D%3D";
+    String key = " (공공데이터포털 (한국전력공사_전기차 충전소 운영정보 REST API)일반 인증키(Encoding)) ";
 //    private volatile String data;
     String address = null; // 주소를 저장할 변수
     String csNm = null;
