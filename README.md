@@ -1,7 +1,10 @@
 # PlugHub_App
 - # Function (login)
-> <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/4b13ca30-bf18-48d1-a844-88f2fa5b1c8a" alt="app" width="400px" height="700px">
+  <layout oriental="horizental">
+ > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/4b13ca30-bf18-48d1-a844-88f2fa5b1c8a" alt="app" width="400px" height="700px">
+  </layout>
 ---
+
  # 1.프로젝트 계획이유
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/6c445c67-2b3b-4543-9ef6-5b4def69c94f)
 ---
