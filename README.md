@@ -1,14 +1,14 @@
-## PlugHub_App
+# PlugHub_App
 ---
 ![ezgif com-gif-maker](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/c50ecf30-7a1d-4ef8-99f6-345e90c08ace)
 ---
- - 프로젝트 계획이유
+ # 1.프로젝트 계획이유
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/6c445c67-2b3b-4543-9ef6-5b4def69c94f)
 ---
- - 개발 구상도
+ # 2.개발 구상도
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/ae8c1b14-983e-43b4-826e-608f791efa68)
 --- 
- - PlugHub_App 기능
+ # 3.PlugHub_App 기능
 
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/2703a181-0af8-4976-8b43-6d4e94f6c9b6)
 ---
@@ -16,7 +16,7 @@
 ---
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/d06cfeac-a115-410c-bcd4-f34a8c8f7818)
 ---
-- 공공데이터포털 정보 파싱
+## 공공데이터포털 정보 파싱
 ```java
 String getXmlData() {
         StringBuilder buffer = new StringBuilder(1024);
@@ -183,7 +183,7 @@ String getXmlData() {
     }//getXmlData method....
 ```
 ---
-- 지도에 마커 추가
+## 지도에 마커 추가
 ```java
  new Thread(new Runnable() {
                 @Override
@@ -248,7 +248,7 @@ String getXmlData() {
     }
 ```
 ---
-- 다이얼 로그 (로그인 시 도움말)
+## 다이얼 로그 (로그인 시 도움말)
 ```java
 private TextView menu;
 menu = findViewById(R.id.user_manual);
