@@ -1,4 +1,7 @@
 ## PlugHub_App
+---
+![ezgif com-gif-maker](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/c50ecf30-7a1d-4ef8-99f6-345e90c08ace)
+---
  - 프로젝트 계획이유
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/6c445c67-2b3b-4543-9ef6-5b4def69c94f)
 ---
