@@ -6,20 +6,20 @@
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/ad02fec8-5851-4b86-bbb1-96e704d8f066" alt="app" width="350px" height="600px">
   </layout>
   
- # 1.프로젝트 계획이유
+ # 1. 프로젝트 계획이유
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/6c445c67-2b3b-4543-9ef6-5b4def69c94f" alt="app" width="800" height="500">
 ---
- # 2.개발 구상도
+ # 2. 개발 구상도
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/ae8c1b14-983e-43b4-826e-608f791efa68" alt="app" width="800" height="500">
 ---
- # 3.PlugHub_App 기능
+ # 3. PlugHub_App 기능
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/2703a181-0af8-4976-8b43-6d4e94f6c9b6" alt="app" width="800" height="500">
 ---
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/12ae5ecf-c327-4cc8-a602-c311af3a2da6" alt="app" width="800" height="500">
 ---
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/d06cfeac-a115-410c-bcd4-f34a8c8f7818" alt="app" width="800" height="500">
 ---
-### ★공공데이터포털 정보 파싱
+### ★ 공공데이터포털 정보 파싱
 ```java
 String getXmlData() {
         StringBuilder buffer = new StringBuilder(1024);
@@ -186,7 +186,7 @@ String getXmlData() {
     }//getXmlData method....
 ```
 ---
-### ★지도에 마커 추가
+### ★ 지도에 마커 추가
 ```java
  new Thread(new Runnable() {
                 @Override
@@ -251,7 +251,7 @@ String getXmlData() {
     }
 ```
 ---
-### ★다이얼 로그 (로그인 시 도움말)
+### ★ 다이얼 로그 (로그인 시 도움말)
 ```java
 private TextView menu;
 menu = findViewById(R.id.user_manual);
