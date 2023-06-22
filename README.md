@@ -1,13 +1,13 @@
 # PlugHub_App
 - # Function (login)
-<img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/4b13ca30-bf18-48d1-a844-88f2fa5b1c8a" alt="app" width="500px">
+> <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/4b13ca30-bf18-48d1-a844-88f2fa5b1c8a" alt="app" width="400px" height="700px">
 ---
  # 1.프로젝트 계획이유
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/6c445c67-2b3b-4543-9ef6-5b4def69c94f)
 ---
  # 2.개발 구상도
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/ae8c1b14-983e-43b4-826e-608f791efa68)
---- 
+---
  # 3.PlugHub_App 기능
 
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/2703a181-0af8-4976-8b43-6d4e94f6c9b6)
@@ -16,7 +16,7 @@
 ---
 > ![image](https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/d06cfeac-a115-410c-bcd4-f34a8c8f7818)
 ---
-### 공공데이터포털 정보 파싱
+### ★공공데이터포털 정보 파싱
 ```java
 String getXmlData() {
         StringBuilder buffer = new StringBuilder(1024);
@@ -183,7 +183,7 @@ String getXmlData() {
     }//getXmlData method....
 ```
 ---
-### 지도에 마커 추가
+### ★지도에 마커 추가
 ```java
  new Thread(new Runnable() {
                 @Override
@@ -248,7 +248,7 @@ String getXmlData() {
     }
 ```
 ---
-### 다이얼 로그 (로그인 시 도움말)
+### ★다이얼 로그 (로그인 시 도움말)
 ```java
 private TextView menu;
 menu = findViewById(R.id.user_manual);
