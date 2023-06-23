@@ -1,10 +1,12 @@
 # 　※ PlugHub_App ※
-- # ☆ Functions & Testing
+- # Functions & Testing
   <layout oriental="horizental">
   <strong>(login)</strong>　　　　　　　　　　　　　　　　　　 　　　<strong>(unlogin)</strong>
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/4b13ca30-bf18-48d1-a844-88f2fa5b1c8a" alt="app" width="300px" height="500px">　　　　　
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/ad02fec8-5851-4b86-bbb1-96e704d8f066" alt="app" width="300px" height="500px">
   </layout>
+  
+---
   
  # ☆ 프로젝트 계획이유
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/6c445c67-2b3b-4543-9ef6-5b4def69c94f" alt="app" width="800" height="500">
