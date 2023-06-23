@@ -1,4 +1,4 @@
-# ※ PlugHub_App ※
+# 　※ PlugHub_App ※
 - # ☆ Functions & Testing
   <layout oriental="horizental">
   <strong>(login)</strong>　　　　　　　　　　　　　　　　　　 　　　<strong>(unlogin)</strong>
