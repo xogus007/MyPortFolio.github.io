@@ -1,6 +1,5 @@
 # ※ PlugHub_App ※
-# ☆ Functions & Testing
-- 
+- # ☆ Functions & Testing
   <layout oriental="horizental">
   <strong>(login)</strong>　　　　　　　　　　　　　　　　　　 　　　<strong>(unlogin)</strong>
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/4b13ca30-bf18-48d1-a844-88f2fa5b1c8a" alt="app" width="300px" height="500px">　　　　　
