@@ -1,18 +1,19 @@
-# 　<PlugHub_App>
-- # Functions & Testing
+# ※ PlugHub_App ※
+# ☆ Functions & Testing
+- 
   <layout oriental="horizental">
   <strong>(login)</strong>　　　　　　　　　　　　　　　　　　 　　　<strong>(unlogin)</strong>
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/4b13ca30-bf18-48d1-a844-88f2fa5b1c8a" alt="app" width="300px" height="500px">　　　　　
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/ad02fec8-5851-4b86-bbb1-96e704d8f066" alt="app" width="300px" height="500px">
   </layout>
   
- # 1. 프로젝트 계획이유
+ # ☆ 프로젝트 계획이유
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/6c445c67-2b3b-4543-9ef6-5b4def69c94f" alt="app" width="800" height="500">
 ---
- # 2. 개발 구상도
+ # ☆ 개발 구상도
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/ae8c1b14-983e-43b4-826e-608f791efa68" alt="app" width="800" height="500">
 ---
- # 3. PlugHub_App 기능
+ # ☆ PlugHub_App 기능
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/2703a181-0af8-4976-8b43-6d4e94f6c9b6" alt="app" width="800" height="500">
 ---
  > <img src="https://github.com/xogus007/MyPortFolio.github.io/assets/121161535/12ae5ecf-c327-4cc8-a602-c311af3a2da6" alt="app" width="800" height="500">
