@@ -64,7 +64,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.lkw.searchbar.login.LoginMainActivity"
+            android:name="com.lkw.searchbar.unlogin.UnLoginMainActivity"
             android:exported="true" >
 
             <!-- <intent-filter> -->
@@ -73,17 +73,17 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name="com.lkw.searchbar.login.LoginDestinationActivity"
+            android:name="com.lkw.searchbar.unlogin.UnLoginDestinationActivity"
             android:exported="false" />
         <activity
             android:name="com.lkw.searchbar.login_signup.SignUpActivity"
             android:exported="true" />
         <activity
-            android:name="com.lkw.searchbar.unlogin.MainActivity"
+            android:name="com.lkw.searchbar.login.MainActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.lkw.searchbar.unlogin.DestinationActivity"
+            android:name="com.lkw.searchbar.login.DestinationActivity"
             android:exported="false" />
         <activity
             android:name="com.kakao.sdk.friend.view.FullPickerActivity"

@@ -11,10 +11,10 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.lkw.searchbar.R;
-import com.lkw.searchbar.unlogin.MainActivity;
+import com.lkw.searchbar.login.MainActivity;
 import com.lkw.searchbar.login_signup.retrofit_login.RetrofitInterfaceLog;
 import com.lkw.searchbar.login_signup.retrofit_login.model.LoginResponse;
-import com.lkw.searchbar.login.LoginMainActivity;
+import com.lkw.searchbar.unlogin.UnLoginMainActivity;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 login();
                 // 로그인 서버 오류에도 실행 가능하도록
-                Intent intent = new Intent(LoginActivity.this, LoginMainActivity.class);
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
@@ -66,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
         nonMember.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                Intent intent = new Intent(LoginActivity.this, UnLoginMainActivity.class);
                 startActivity(intent);
                 finish();
             }

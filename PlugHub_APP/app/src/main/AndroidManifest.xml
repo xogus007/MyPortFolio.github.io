@@ -33,25 +33,25 @@
         </activity>
 
         <activity
-            android:name=".login.LoginMainActivity"
+            android:name=".unlogin.UnLoginMainActivity"
             android:exported="true">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
         </activity>
-        <activity android:name=".login.LoginDestinationActivity"
+        <activity android:name=".unlogin.UnLoginDestinationActivity"
             android:exported="false" />
         <activity
             android:name=".login_signup.SignUpActivity"
             android:exported="true"/>
 
         <activity
-            android:name=".unlogin.MainActivity"
+            android:name=".login.MainActivity"
             android:exported="true">
         </activity>
 
-        <activity android:name=".unlogin.DestinationActivity"
+        <activity android:name=".login.DestinationActivity"
             android:exported="false"/>
 
     </application>
