@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/option"
+        android:padding="10dp">
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/char_full"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:text="완속"/>
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/char_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:text="급속"/>
+    </LinearLayout>
+</LinearLayout>
