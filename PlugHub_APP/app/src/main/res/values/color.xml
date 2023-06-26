@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name = "primary_button">#FFFFFF</color>
-    <color name ="primary_color">#B9EABB</color>
-    <color name = "primary_border">#60D38B</color>
-    <color name = "primary_text">#35B842</color>
-
-</resources>
