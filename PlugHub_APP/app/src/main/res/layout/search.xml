@@ -114,6 +114,6 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
     <include
         android:id="@+id/viewBottomSheet"
-        layout="@layout/log_bottom"
+        layout="@layout/unlogin_bottom"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

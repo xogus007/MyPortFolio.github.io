@@ -39,7 +39,7 @@ public class LoginDestinationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.unlogin_destination); // 뷰를 구현
+        setContentView(R.layout.login_destination); // 뷰를 구현
         initView();
     }
     private void initView(){

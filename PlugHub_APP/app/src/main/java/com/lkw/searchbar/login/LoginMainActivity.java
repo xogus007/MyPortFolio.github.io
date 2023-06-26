@@ -139,7 +139,7 @@ public class LoginMainActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setStatusBarTransparent(this);
 
-        setContentView(R.layout.unlogin_search);
+        setContentView(R.layout.login_search);
 
         findViewById(R.id.unlogin_more_btn).setOnClickListener(this);
 
@@ -352,7 +352,7 @@ public class LoginMainActivity extends AppCompatActivity implements
         scrollView.scrollTo(maxScrollX, 0);
 
         LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-        View popupView = inflater.inflate(R.layout.unlogin_using_speed, null);
+        View popupView = inflater.inflate(R.layout.login_using_speed, null);
         popupWindow = new PopupWindow(popupView, 250, ViewGroup.LayoutParams.WRAP_CONTENT);
         popupWindow.setFocusable(true);
         popupWindow.setOutsideTouchable(true);
@@ -433,7 +433,7 @@ public class LoginMainActivity extends AppCompatActivity implements
         scrollView.scrollTo(-centerX, 0);
 
         LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-        View popupView = inflater.inflate(R.layout.unlogin_using_typemenu, null);
+        View popupView = inflater.inflate(R.layout.login_using_typemenu, null);
 
         popupWindow = new PopupWindow(popupView, 330, 600);
         popupWindow.setFocusable(true);

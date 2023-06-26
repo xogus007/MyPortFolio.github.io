@@ -126,6 +126,6 @@
 
     <include
         android:id="@+id/unlogin_viewBottomSheet"
-        layout="@layout/unlogin_bottom"
+        layout="@layout/login_bottom"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
