@@ -1,4 +1,10 @@
 # 　※ PlugHub_App ※
+---
+>(현재 unlogin이 데이터베이스를 사용하므로 로그인 시 메인 화면이 될 예정이었으나, 
+
+>부득이하게 공공데이터포털에서 REST API를 바로 사용한 화면이 로그인 시 화면으로 구현하게 되었습니다.)
+
+---
 - # Functions & Testing
   <layout oriental="horizental">
    <strong>(login)</strong>　　　　　　　　　　　　　　　　　　　　　<strong>(unlogin)</strong>
